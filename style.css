@@ -31,9 +31,9 @@ img{
     margin: auto;
     position: absolute;
     top: 30%;
-    left: 37.3%;
-    width: 12.7vw;
-    height: 43vh;
+    left: 37.2%;
+    width: 12.8vw;
+    height: 45vh;
     border-radius: 10px 0px 0px 10px;
     box-shadow: 8px 12px 30px rgba(0, 0, 0, 0.359)
     
@@ -45,8 +45,8 @@ section{
     position: absolute;
     top: 30%;
     left: 50%;
-    width: 12.7vw;
-    height: 43vh;
+    width: 12.8vw;
+    height: 45vh;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 8px 12px 30px rgba(0, 0, 0, 0.359)
     
@@ -114,11 +114,28 @@ p{
     height: 35px;
     background-color: hsl(158, 37%, 20%);
     position: relative;
-    left: 22px;
-    top: 70px;
+    left: 20px;
+    top: 73px;
     border-radius: 8px;
-    background-image: url(images/icon-cart.svg) ;
+    background-image: url(images/icon-cart.svg);
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 12px;
+    background-position: 42px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.623);
+    
+}
+
+#botao:hover{
+    transform: translateZ(10px);
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.623);
+    transition: transform .3s, border .3s;
+}
+
+#add{
+    position: relative;
+    left: 61px;
+    top: 11px;
+    color: white;
     
 }
